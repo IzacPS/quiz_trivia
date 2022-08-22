@@ -30,15 +30,11 @@ class AdHelper {
   static InterstitialAd? interstitialAd;
   static bool interstitialAdReady = false;
   static String get bannerAdUnitId {
-    //return 'ca-app-pub-3940256099942544/6300978111';
-    //TEST
-    return 'ca-app-pub-6091645546775983/9623967670';
+    return 'ca-app-pub-3940256099942544/6300978111';
   }
 
   static String get interstitialAdUnitId {
-    //TEST
-    //return 'ca-app-pub-3940256099942544/1033173712';
-    return 'ca-app-pub-6091645546775983/9887460048';
+    return 'ca-app-pub-3940256099942544/1033173712';
   }
 
   static void init() {
